@@ -19,7 +19,7 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:textSize="45sp"
-            android:background="#99FF99"/>
+            android:background="@color/colorBackground"/>
 
     </LinearLayout>
 
@@ -36,21 +36,21 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#666666" />
+            android:background="@color/colorFirst" />
 
         <TextView
             android:id="@+id/textViewThree"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#CC6600" />
+            android:background="@color/colorSecond" />
 
         <TextView
             android:id="@+id/textViewFour"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#339999" />
+            android:background="@color/colorThird" />
     </LinearLayout>
 
     <LinearLayout
@@ -63,7 +63,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:background="#FF6666"/>
+            android:background="@color/colorBottom"/>
 
     </LinearLayout>
 
